@@ -1,5 +1,6 @@
 class ReadersController < ApplicationController
 
-  def new  	
+  def new 
+    @reader = Reader.new
   end  
 end
