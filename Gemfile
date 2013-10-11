@@ -33,6 +33,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.14.0'
+  gem 'spork-rails',       '4.0.0'
 end
 
 group :test do
